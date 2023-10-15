@@ -16,9 +16,9 @@ jobs:
       - run: yarn build
       - uses: amondnet/vercel-action@v20 #deploy
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          github-token: ${{ secrets.GH_TOKEN }} #Optional
+          vercel-token: ${{ FQG1zEUrfXh18BkFw6ZDFEFF }} # Required
+          github-token: ${{ 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 }} #Optional
           vercel-args: "--prod" #Optional
-          vercel-org-id: ${{ secrets.ORG_ID}} #Required
-          vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
+          vercel-org-id: ${{ pRxe66I3w0ItPJn1DlRrFuVM}} #Required
+          vercel-project-id: ${{ prj_ssrSql9y1E0e64cxqKKNlVKS9qhR}} #Required
           # working-directory: ./
